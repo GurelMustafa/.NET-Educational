@@ -1,0 +1,80 @@
+﻿body {
+    background: #61c6c7;
+    margin: 15px;
+    margin-top: 50px;
+}
+.forgotpw
+.forgotpw * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.forgotpwform {
+    max-width: 750px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+.forgotpwlogocontainer {
+    padding: 10px;
+    background: rgba(0,0,0,0.25)
+}
+.forgotpwlogo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto
+}
+.forgotpwcontent {
+    padding: 30px;
+    background: #edeaea;
+}
+.forgotpwheader {
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333333
+}
+.emailinput {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+.emailinput:focus {
+        border-color: #61c6c7
+    }
+.emailinput::placeholder {
+        color: #aaaaaa
+    }
+.loginloginbutton {
+    padding: 10px;
+    color: #edeaea;
+    font-weight: bold;
+    background: #499495;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.25);
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    margin-top: 15px;
+}
+.gobacklogin {
+    color: #316a6b;
+    text-decoration: none;
+    top:15px;
+    position:relative;
+}
+.gobackregister {
+    text-decoration: none;
+    position: relative;
+    left: 35px;
+    color: #316a6b;
+    top:15px
+}
